@@ -76,6 +76,13 @@
    
     
 }
+.content-large{
+    color: blanchedalmond;
+    padding: 2px 15px 2px 15px;
+    clear: both;
+    display: none;
+
+}
 
 
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -113,7 +120,13 @@
         clear: both;
         
     }
+    .content-large{
+    color: blanchedalmond;
+    padding: 2px 15px 2px 15px;
+    clear: both;
+    display: inline-block;
 
+}
 }
 
 @media only screen and (max-width:767px) {
